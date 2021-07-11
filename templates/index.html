@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Movie Recommendation </title>
+        <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    </head>
+    <body>
+        <div id = "main">
+        <h1> Movie Recommendation System </h1>
+        <form action = "{{url_for('recommend')}}" method = "POST"> 
+            <label>Enter the Movie which is indsie in dataset: </label>
+            <input type = "text" name = "movie" id = "movie_name" placeholder = "Movie Name"  required/>
+            <br> <br> <button type = "submit"> Recommend </button> </br> </br>
+        </form>
+        </div>
+        <h3> {{result}} </h3>
+    </body>
+</html>
