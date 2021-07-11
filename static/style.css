@@ -1,0 +1,21 @@
+body{
+    background-image: url("download.jpg");
+}
+#main
+{
+    width: 50%;
+    margin: auto;
+    border: 1px solid white;
+    background-color: aliceblue;
+    margin-top: 250px;
+    text-align: center;
+    padding: auto;
+}
+h1
+{
+    color: white;
+}
+input[type = text]
+{
+    width: 100%;
+}
