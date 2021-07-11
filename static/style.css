@@ -13,9 +13,6 @@ body{
 }
 h1
 {
-    color: white;
+    color: black;
 }
-input[type = text]
-{
-    width: 70%;
-}
+
